@@ -1,5 +1,7 @@
 #include<stdio.h>
-void main()
+using namespace std;
+int main()
 {
-    printf("Hello World");
+cout<<"Hello World";
+return 0
 }
