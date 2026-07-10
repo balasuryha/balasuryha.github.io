@@ -23,6 +23,7 @@
             <div class="flex space-x-6 text-sm font-medium text-gray-400">
                 <a href="#about" class="hover:text-cyan-400 transition">About</a>
                 <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
                 <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
                 <a href="#education" class="hover:text-cyan-400 transition">Education</a>
             </div>
@@ -123,6 +124,46 @@
         </div>
     </section>
 
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-16 bg-[#0B0F19] px-4 max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+            <span class="text-cyan-400">//</span> Featured Projects
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- PROJECT 1: PARKWISE -->
+            <div class="p-6 rounded-xl bg-[#131B30] border border-gray-800 flex flex-col justify-between hover:border-cyan-500/50 transition duration-300">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-white tracking-tight">ParkWise Application</h3>
+                        <a href="https://github.com/balasuryha/ParkWise" target="_blank" class="text-gray-400 hover:text-cyan-400 transition text-xl">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        A real-time intelligent parking and urban events platform designed to optimize city parking. It aligns live event schedules with predictive models to help drivers efficiently plan around high-congestion areas.
+                    </p>
+                    <ul class="space-y-2 text-gray-400 text-xs list-disc pl-4 mb-6">
+                        <li>Engineered time-series forecasting pipelines using the <strong>Prophet Model</strong> to accurately predict future parking asset availability based on seasonal and event-driven trends.</li>
+                        <li>Implemented an event-driven, real-time alerting subsystem to notify users dynamically of shifting availability metrics.</li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2.5 py-1 text-[11px] font-semibold rounded-md bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Python</span>
+                    <span class="px-2.5 py-1 text-[11px] font-semibold rounded-md bg-blue-500/10 text-blue-400 border border-blue-500/20">Prophet Model</span>
+                    <span class="px-2.5 py-1 text-[11px] font-semibold rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20">Time-Series AI</span>
+                    <span class="px-2.5 py-1 text-[11px] font-semibold rounded-md bg-gray-800 text-gray-300">Real-Time Alerts</span>
+                </div>
+            </div>
+
+            <!-- Placeholder for your next project card (e.g., Agentic Extraction or an MCP project) -->
+            <div class="p-6 rounded-xl bg-[#131B30]/40 border border-gray-800 border-dashed flex flex-col items-center justify-center text-center text-gray-500 min-h-[250px]">
+                <i class="fa-solid fa-plus text-2xl mb-2"></i>
+                <p class="text-sm">Adding next AI/Agent architecture project...</p>
+            </div>
+        </div>
+    </section>
+    
     <!-- PROFESSIONAL EXPERIENCE SECTION -->
     <section id="experience" class="py-20 px-4 max-w-5xl mx-auto">
         <h2 class="text-2xl font-bold text-white mb-12 flex items-center gap-2">
