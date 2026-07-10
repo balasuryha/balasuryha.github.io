@@ -1,1 +1,237 @@
-<h4>hello world-testing</h4>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balasuryha Lavakumar | AI & Software Engineer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#0B0F19] text-gray-200 antialiased selection:bg-cyan-500 selection:text-black">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-[#0B0F19]/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                BL.dev
+            </a>
+            <div class="flex space-x-6 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#experience" class="hover:text-cyan-400 transition">Experience</a>
+                <a href="#education" class="hover:text-cyan-400 transition">Education</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="about" class="pt-32 pb-20 px-4 max-w-5xl mx-auto grid md:grid-cols-3 gap-8 items-center">
+        <div class="md:col-span-2 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span> Available for Full-Time Roles
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
+                Hi, I'm <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Balasuryha Lavakumar</span>
+            </h1>
+            <p class="text-xl font-medium text-gray-400">
+                AI & Software Engineer <span class="text-gray-600">•</span> 4.5 Years Experience
+            </p>
+            <p class="text-gray-400 max-w-xl leading-relaxed">
+                Result-oriented AI Engineer passionate about bridging the gap between Advanced AI frameworks (MCP, RAG, Agents, LLMs) and robust Software Engineering to build production-ready, scalable technical ecosystems.
+            </p>
+            
+            <!-- CTAs & Socials -->
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+                <a href="mailto:balasuryha@gmail.com" class="px-5 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-black font-semibold rounded-lg shadow-lg shadow-cyan-500/10 transition flex items-center gap-2">
+                    <i class="fa-solid fa-envelope"></i> Contact Me
+                </a>
+                <a href="https://linkedin.com/in/balasuryha" target="_blank" class="px-5 py-2.5 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition flex items-center gap-2 border border-gray-700">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <div class="text-sm text-gray-500 flex items-center gap-2 ml-2">
+                    <i class="fa-solid fa-location-dot text-cyan-500"></i> Paris, France
+                </div>
+            </div>
+        </div>
+        
+        <!-- Profile Image Placeholder -->
+        <div class="flex justify-center md:justify-end">
+            <div class="relative group">
+                <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 opacity-40 blur-md group-hover:opacity-70 transition"></div>
+                <!-- Replace 'profile.jpg' with your actual image path when uploading -->
+                <img src="profile.jpg" alt="Balasuryha Lavakumar" class="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-2 border-gray-800 bg-gray-900">
+            </div>
+        </div>
+    </header>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-16 bg-[#0E1424] border-y border-gray-800/50 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+                <span class="text-cyan-400">//</span> Technical Core
+            </h2>
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- AI & LLM Stack -->
+                <div class="p-5 rounded-xl bg-[#131B30] border border-gray-800">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">AI & Agentic Systems</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">LangGraph</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">LangChain</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">MCP</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">RAG / RLM</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">Vector Databases</span>
+                    </div>
+                </div>
+
+                <!-- Software Engineering -->
+                <div class="p-5 rounded-xl bg-[#131B30] border border-gray-800">
+                    <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">Python</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">Java</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">JavaScript</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Backend & Cloud -->
+                <div class="p-5 rounded-xl bg-[#131B30] border border-gray-800 sm:col-span-2 md:col-span-1">
+                    <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-400 mb-4">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Cloud & Architecture</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">AWS Lambda</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">AWS S3</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">AWS EC2</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">Spring Boot</span>
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-md bg-gray-800 text-gray-300">Microservices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section id="experience" class="py-20 px-4 max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold text-white mb-12 flex items-center gap-2">
+            <span class="text-cyan-400">//</span> Engineering Impact
+        </h2>
+        
+        <div class="space-y-12 border-l-2 border-gray-800 pl-6 ml-4 relative">
+            
+            <!-- EXPERIENCE 1: BNP Paribas -->
+            <div class="relative">
+                <!-- Timeline dot -->
+                <div class="absolute -left-[35px] top-1.5 w-4 h-4 rounded-full bg-cyan-500 border-4 border-[#0B0F19]"></div>
+                <div class="flex flex-wrap items-start justify-between gap-2 mb-3">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">AI Engineer (Intern)</h3>
+                        <p class="text-cyan-400 font-medium">BNP Paribas <span class="text-gray-600">•</span> Paris, France</p>
+                    </div>
+                    <span class="px-3 py-1 text-xs font-semibold rounded-full bg-gray-800 text-gray-400 border border-gray-700">Oct 2025 - Apr 2026</span>
+                </div>
+                <ul class="space-y-2 text-gray-400 text-sm list-disc pl-4 leading-relaxed">
+                    <li>Designed an end-to-end RAG (Retrieval-Augmented Generation) chatbot to automate data archiving for tickets, leveraging vector embeddings and semantic search pipelines.</li>
+                    <li>Developed custom Model Context Protocol (MCP) servers to provide secure, standardized, and dynamic documentation access layers for LLMs.</li>
+                    <li>Researched and integrated Recursive Language Models (RLM) to effectively manage recursive sub-LLM execution chains, resolving context saturation issues.</li>
+                </ul>
+            </div>
+
+            <!-- EXPERIENCE 2: Cognizant -->
+            <div class="relative">
+                <!-- Timeline dot -->
+                <div class="absolute -left-[35px] top-1.5 w-4 h-4 rounded-full bg-gray-700 border-4 border-[#0B0F19]"></div>
+                <div class="flex flex-wrap items-start justify-between gap-2 mb-3">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">Software Engineer</h3>
+                        <p class="text-blue-400 font-medium">Cognizant <span class="text-gray-600">•</span> Chennai, India</p>
+                    </div>
+                    <span class="px-3 py-1 text-xs font-semibold rounded-full bg-gray-800 text-gray-400 border border-gray-700">Feb 2022 - Aug 2024</span>
+                </div>
+                <ul class="space-y-2 text-gray-400 text-sm list-disc pl-4 leading-relaxed">
+                    <li>Engineered and optimized high-performance REST APIs and decoupled microservices using Java (Spring Boot), scaling underlying system reactivity.</li>
+                    <li>Designed and deployed event-driven AWS Lambda functions in Java, driving down computational infrastructure costs via serverless architectures.</li>
+                </ul>
+            </div>
+
+            <!-- EXPERIENCE 3: Amazon -->
+            <div class="relative">
+                <!-- Timeline dot -->
+                <div class="absolute -left-[35px] top-1.5 w-4 h-4 rounded-full bg-gray-700 border-4 border-[#0B0F19]"></div>
+                <div class="flex flex-wrap items-start justify-between gap-2 mb-3">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">ML Data Associate-1</h3>
+                        <p class="text-purple-400 font-medium">Amazon <span class="text-gray-600">•</span> Chennai, India</p>
+                    </div>
+                    <span class="px-3 py-1 text-xs font-semibold rounded-full bg-gray-800 text-gray-400 border border-gray-700">Aug 2020 - Jan 2022</span>
+                </div>
+                <ul class="space-y-2 text-gray-400 text-sm list-disc pl-4 leading-relaxed">
+                    <li>Enhanced Alexa's Automatic Speech Recognition (ASR) precision metrics by strategically evaluating natural dialogue sequences and structural data tagging.</li>
+                    <li>Produced highly curated, annotated gold-standard machine learning training datasets, directly iterating voice model prediction accuracy.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-16 bg-[#0E1424] border-t border-gray-800/50 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-2">
+                <span class="text-cyan-400">//</span> Education & Languages
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Degree card -->
+                <div class="md:col-span-2 p-6 rounded-xl bg-[#131B30] border border-gray-800 flex gap-4 items-start">
+                    <div class="w-12 h-12 rounded-lg bg-cyan-500/10 flex items-center justify-center text-cyan-400 shrink-0 text-xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Master of Science (BAC+5)</span>
+                        <h3 class="text-xl font-bold text-white mt-1">EPITA (École pour l'Informatique et les Techniques Avancées)</h3>
+                        <p class="text-sm text-gray-400 mt-1">Computer Science & Software Engineering</p>
+                        <p class="text-xs text-gray-500 mt-2"><i class="fa-solid fa-location-dot"></i> Paris, France</p>
+                    </div>
+                </div>
+
+                <!-- Languages card -->
+                <div class="p-6 rounded-xl bg-[#131B30] border border-gray-800 space-y-4">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-gray-400">Languages</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between text-sm">
+                            <span class="text-white font-medium">English</span>
+                            <span class="text-cyan-400 font-semibold">Fluent / Courant</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-white font-medium">French</span>
+                            <span class="text-gray-400">Advanced Intermediate</span>
+                        </div>
+                        <div class="flex justify-between text-sm">
+                            <span class="text-white font-medium">Tamil</span>
+                            <span class="text-gray-500">Native</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center text-xs text-gray-600 border-t border-gray-900">
+        <p>© 2026 Balasuryha Lavakumar. Hosted completely on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
